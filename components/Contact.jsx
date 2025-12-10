@@ -113,7 +113,7 @@ const Contact = () => {
       </motion.button>
       
       <motion.a
-        href="https://calendly.com/soumia-ouafi11/availability"
+        href="https://calendly.com/khouimohamed99/30min"
         target="_blank"
         rel="noopener noreferrer"
         whileHover={{ scale: 1.05 }}
