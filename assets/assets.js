@@ -6,11 +6,11 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import jira from './jira.png';
-import Artemis from './artemis.png';
+import powerBi from './PowerBi.png';
 import msp from './msp.png';
 import ganttproject from './ganttproject.png';
 import excel from './excel.png';
-import devops from './devops.png';
+import microOffice from './mo.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -50,11 +50,11 @@ export const assets = {
     project_icon,
     project_icon_dark,
     jira,
-    Artemis,
+    powerBi,
     msp,
     ganttproject,
     excel,
-    devops,
+    microOffice,
     right_arrow_white,
     logo,
     logo_dark,
@@ -161,47 +161,46 @@ export const serviceData = [
 
 export const infoList = [
     { 
+        icon: assets.project_icon, 
+        iconDark: assets.project_icon_dark, 
+        title: 'Mon Parcours Académique', 
+        description: [
+            'Master 2 - Management Stratégique & Conduite du Changement (IAE Paris-Saclay)',
+            'Master - Management des Entreprises & Gestion de Projets (Université Mohammed V)',
+            'Licence Pro - Management des Organisations (ENCG Maroc)',
+            'DUT - Techniques de Management (EST Maroc)'
+        ]
+    },
+    { 
         icon: assets.code_icon, 
         iconDark: assets.code_icon_dark, 
-        title: 'Mes Services', 
+        title: 'Services Proposés', 
         description: [
-            'Traduire vos besoins en solutions concrètes',
-            'Sécuriser vos projets stratégiques',
-            'Accompagner vos équipes dans le changement',
-            'Éliminer retards et surcoûts'
+            'Gestion de projet - Planification et coordination',
+            'MOA - Recueil des besoins et cahiers des charges',
+            'Conduite du changement - Accompagnement et formation',
+            'Formations & Coaching - Office, Agile, Jira/MS Project'
         ]
     },
     { 
         icon: assets.edu_icon, 
         iconDark: assets.edu_icon_dark, 
-        title: 'Ma Mission', 
+        title: 'Mes Missions', 
         description: [
             'Transformation digitale et organisationnelle',
             'Expertise technique et humaine',
             'Solutions adaptées à vos besoins et budgets',
             'Accompagnement de A à Z'
         ]
-    },
-    { 
-        icon: assets.project_icon, 
-        iconDark: assets.project_icon_dark, 
-        title: 'Mes Valeurs', 
-        description: [
-            'Ambition - Excellence garantie',
-            'Rigueur - Qualité & délais',
-            'Adaptabilité - Solutions sur-mesure',
-            'Transparence - Communication claire',
-            'Performance - Résultats mesurables'
-        ]
     }
 ];
 
 export const toolsData = [
   { img: assets.msp, name: "MS Project" },
-  { img: assets.Artemis, name: "Artémis" },
+  { img: assets.powerBi, name: "Power BI" },
   { img: assets.ganttproject, name: "Gantt Project" },
   { img: assets.excel, name: "Excel avancé" },
-  { img: assets.devops, name: "Azure DevOps" },
+  { img: assets.microOffice, name: "Microsoft Office" },
   { img: assets.jira, name: "Jira" },
 ];
 

@@ -75,7 +75,7 @@ Rigoureux, adaptable et bilingue (français/anglais), je mets mon expertise au s
                 initial={{ y: 20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ delay: 1.3, duration: 0.5 }}
-                className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Tools I use</motion.h4>
+                className='my-6 text-gray-700 font-Ovo dark:text-white/80'>Outils techniques</motion.h4>
 
                 <motion.ul
                 initial={{ opacity: 0 }}
