@@ -10,7 +10,7 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "OS - Ouafi Soumia",
+  title: "BK - BIG K CONSULTING",
   description: "",
 };
 
