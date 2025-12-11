@@ -176,10 +176,10 @@ export const infoList = [
         iconDark: assets.code_icon_dark, 
         title: 'Services Proposés', 
         description: [
-            'Formations & Coaching - Office, Agile, Jira/MS Project',
-            'Gestion de projet - Planification et coordination',
-            'MOA - Recueil des besoins et cahiers des charges',
-            'Conduite du changement - Accompagnement et formation'
+            'Formations & Coaching : Office, Agile, Jira/MS Project',
+            'Gestion de projet : Planification et coordination',
+            'MOA : Recueil des besoins et cahiers des charges',
+            'Conduite du changement : Accompagnement et formation'
         ]
     },
     { 
